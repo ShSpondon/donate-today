@@ -15,16 +15,18 @@ h1 {
 
 h2 {
     font-size: 30px;
-    font-weight: 300;
-    color: white;
+    font-weight: 500;
+    color: tomato;
     text-align: center;
 }
 
 h3 {
     font-size: 20px;
-    font-weight: 200;
-    color: white;
+    font-weight: 400;
+    color: rgb(219, 217, 217);
     text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .donate-now {
@@ -46,4 +48,153 @@ h3 {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+}
+
+.sub-hero {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.color {
+    color: rgb(43, 42, 42);
+    font-size: 60px;
+}
+
+.donation-request {
+    color: rgb(43, 42, 42);
+}
+
+.container {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.amount {
+    width: 90%;
+    height: 80px;
+    background-color: rgba(216, 212, 212, 0.158);
+    margin: 20px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.575);
+    border-radius: 10px;
+}
+
+#selected {
+    background-color: rgba(245, 210, 210, 0.651);
+    border: 5px solid tomato;
+    border-radius: 10px;
+    color: tomato;
+}
+
+#amount-input {
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(43, 42, 42);
+    margin-top: 40px;
+
+
+}
+
+hr {
+    width: 20%;
+    margin-bottom: 60px;
+
+}
+
+.third {
+    color: rgb(43, 42, 42);
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.third-hero {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.plan-container {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.donation-plans {
+    text-align: center;
+}
+
+.plan-container {
+    display: flex;
+    padding: 50px 100px;
+
+}
+
+
+
+#food {
+    text-align: justify;
+    background-color: rgb(238, 248, 255);
+    margin: 20px;
+    padding: 50px 20px;
+    text-align: left;
+    color: rgb(43, 42, 42);
+    border-radius: 10px;
+}
+
+#shelter {
+    text-align: justify;
+    background-color: rgb(255, 240, 238);
+    margin: 20px;
+    padding: 50px 20px;
+    text-align: left;
+    color: rgb(43, 42, 42);
+    border-radius: 10px;
+}
+
+#education {
+    text-align: justify;
+    background-color: rgb(255, 251, 238);
+    margin: 20px;
+    padding: 50px 20px;
+    text-align: left;
+    color: rgb(43, 42, 42);
+    border-radius: 10px;
+}
+
+.food-plan {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(43, 42, 42);
+    text-align: left;
+}
+
+.shelter-plan {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(43, 42, 42);
+    text-align: left;
+}
+
+.education-plan {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(43, 42, 42);
+    text-align: left;
 }
